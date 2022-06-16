@@ -1,5 +1,5 @@
 import socket
-from machine import Pin
+import machine
 
 
 p = machine.PWM(machine.Pin(5), freq=10000)
